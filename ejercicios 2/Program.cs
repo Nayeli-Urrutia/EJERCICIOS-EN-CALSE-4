@@ -31,6 +31,29 @@ namespace ejercicios_2
             Console.ReadKey();
 
             //PROGRAMA 2.1
+            int divisor1 = 7;
+            int divisor2 = 11;
+
+            int numero=0;
+
+            Console.WriteLine("El numero divisible entre 7 y 11 es:");
+
+            while (true)
+            {
+                for (numero  = 1; numero <= 100; numero++) 
+                {
+
+                    if (numero % divisor1 == 0 && numero % divisor2 == 0)
+                    {
+                        Console.WriteLine($" {numero}");
+
+                    }
+                
+                }
+                Console.ReadKey();
+            }
+         
         }
+
     }
 }
